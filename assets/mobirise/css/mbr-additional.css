@@ -10,7 +10,7 @@ body {
   font-size: 5.6rem;
 }
 .display-2 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1.5rem;
   font-display: swap;
 }
@@ -18,7 +18,7 @@ body {
   font-size: 2.4rem;
 }
 .display-4 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
   font-display: swap;
 }
@@ -34,7 +34,7 @@ body {
   font-size: 1.76rem;
 }
 .display-7 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
   font-display: swap;
 }
@@ -540,7 +540,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
   font-display: swap;
 }
