@@ -54,7 +54,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 253,
+    "uniqCompNum": 270,
     "versionPublish": "5.4.1",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/ryankey-logo-2.jpg",
@@ -500,7 +500,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#232323\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <a href=\"index.html#top\"><img src=\"@PROJECT_PATH@/assets/images/ryankey-logo-2.jpg\" alt=\"logo_ryankey\" mbr-style=\"{'height': logoSize + 'rem'}\" title></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">timWeb</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Home</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#tabs02-70\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Parcing</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#header16-6l\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Add-on Features</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#map1-6i\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact Us</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-black\" href=\"http://ryankey.com.my/\" data-app-placeholder=\"Type Text\" target=\"_blank\">Ryankey Design</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#232323\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <a href=\"index.html#top\"><img src=\"@PROJECT_PATH@/assets/images/ryankey-logo-2.jpg\" alt=\"logo_ryankey\" mbr-style=\"{'height': logoSize + 'rem'}\" title></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">timWeb</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Home</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#tabs02-70\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Parcing</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#header16-6l\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Add-on Features</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-black\" href=\"http://ryankey.com.my/\" data-app-placeholder=\"Type Text\" target=\"_blank\">Ryankey Design</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "r5bQjIq0JC",
           "_anchor": "menu1-0",
           "_protectedParams": [],
@@ -770,7 +770,7 @@
         {
           "_name": "tabs02",
           "_sourceTheme": "digitalm4",
-          "_customHTML": "<section group=\"Tabs\" class=\"tabs tabs2 digitalm4_tabs02\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Badge\" name=\"showBadge\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Main Text\" name=\"showMainText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Half color\" name=\"showHalf\">\n        <select title=\"Items Count\" name=\"itemsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <header>Tabs</header>\n        <input type=\"color\" title=\"Inactive color\" name=\"tabsColor\" value=\"#606060\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#ecedee\">\n        <input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#0036ff\">\n        <hr>\n        <input type=\"color\" title=\"Badge Bg Color\" name=\"badgeBg\" value=\"#232323\" selected condition=\"showBadge\">\n        <input type=\"checkbox\" title=\"Bg Gradient\" name=\"gradientBg\" checked condition=\"showHalf\">\n\n        <input type=\"range\" inline title=\"Half BG Height\" name=\"halfHeight\" min=\"20\" max=\"150\" step=\"5\" value=\"55\" condition=\"showHalf\">\n        <input type=\"color\" title=\"Half BG Color\" name=\"half\" value=\"#cad8f1\" condition=\"showHalf\">\n        <input type=\"color\" title=\"Half BG Color 2\" name=\"half2\" value=\"#2e5bff\" condition=\"showHalf&&gradientBg\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@ADDONS_PATH@/digitalm4/components/_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"back\" mbr-if=\"showHalf\"></div>\n\n    <div class=\"container\">\n        <div class=\"badge_wrap align-center\">\n            <h5 class=\"badge mbr-regular mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".badge, .badge_wrap\" mbr-if=\"showBadge\">OUR PRICING\n            </h5>\n        </div>\n        <h3 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-light\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><span style=\"font-weight: normal;\">We offer great prices, premium products and </span><br><span style=\"font-weight: normal;\">quality service for your business</span></h3>\n        <h4 class=\"main-title align-center mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".main-title\" mbr-if=\"showMainTitle\">我们为您的企业提供优惠的价格、优质的产品和优质的服务</h4>\n\n        <p class=\"main-text align-center mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".main-text\" mbr-if=\"showMainText\">Semper risus in hendrerit gravida rutrum\n            quisque non tellus. Egestas maecenas pharetra convallis posuere morbi. Consectetur purus ut faucibus\n            pulvinar elementum integer enim. Pellentesque habitant morbi tristique senectus. Montes nascetur\n            ridiculus mus mauris vitae ultricies leo. Vitae justo eget magna fermentum iaculis. Sed risus\n            pretium quam vulputate. Enim lobortis scelerisque fermentum dui. Adipiscing elit duis tristique\n            sollicitudin. Elit sed vulputate mi sit amet. </p>\n        <ul class=\"nav nav-tabs mb-3 d-flex justify-content-center\" role=\"tablist\">\n            <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item first mbr-section-btn\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"mbr-fonts-style btn show btn-sm active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs02-70_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">MONTHLY</a></li>\n            <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item mbr-section-btn\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"mbr-fonts-style btn btn-sm active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs02-70_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">YEARLY</a></li>\n        </ul>\n        <div class=\"tab-content\">\n            <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                <div class=\"row\">\n                    <div class=\"col-lg-12\">\n                        <div class=\"media-container-row\">\n                            <div class=\"plan col-12 my-3 justify-content-center\" mbr-if=\"itemsCount > 0\" mbr-class=\"{\n                            'col-md-4': itemsCount == 3,\n                            'col-md-6': itemsCount == 2}\">\n                                <div class=\"plan-header text-center\">\n                                    <span mbr-icon class=\"mbr-iconfont icon54-v2-app-window\"></span>\n                                    <h3 class=\"plan-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan .plan-header .plan-title\">\n                                        One Page Design</h3>\n                                    <div class=\"plan-price\">\n                                        <div class=\"price-figure pb-1 mbr-fonts-style\" data-app-selector=\".plan .plan-header .plan-price .price-figure\">\n                                            <span mbr-text class=\"price-currency mbr-fonts-style\" mbr-theme-style=\"display-7\">RM</span>\n                                            <span mbr-text class=\"price-value mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-1\">160</span>\n                                            <span mbr-text class=\"price-duration mbr-fonts-style\" mbr-theme-style=\"display-4\">| month</span></div>\n                                    </div>\n\n                                </div>\n                                <div class=\"plan-body\">\n                                    <div class=\"plan-list align-center\">\n                                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn\">\n                                            <li class=\"list-group-item\">2 Years Domain &amp; Share Hosting\n</li><li class=\"list-group-item\">Include domain name (Domain), server usage and content creation fee! (.com/.com.my/.my)\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">Developed and designed according to your specifications, absolutely original web design</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">One(1) page design</span></li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">&nbsp;All pictures on the web design have copyright certification\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">Smart Phone Applicable\n</li><li class=\"list-group-item\">(Responsive design)\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">10 SSD Shared Hosting Storage\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">Registration Fee - RM300\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">Yearly Renewal Fee - RM650\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">FREE 1 Year Support Services\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">FREE Consultant Services</li><div><div>\n                                        </div></div></ul>\n                                    </div>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"#\" class=\"btn btn-sm btn-black\" data-app-placeholder=\"Type Text\">CHOOSE\n                                            PLAN</a></div>\n                                </div>\n                            </div>\n\n                            <div class=\"plan col-12 my-3 justify-content-center\" mbr-if=\"itemsCount > 1\" mbr-class=\"{\n                            'col-md-4': itemsCount == 3,\n                            'col-md-6': itemsCount == 2}\">\n                                <div class=\"plan-header text-center\">\n                                    <span mbr-icon class=\"mbr-iconfont icon54-v2-add-app\"></span>\n                                    <h3 class=\"plan-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan .plan-header .plan-title\">Corporate Website</h3>\n                                    <div class=\"plan-price\">\n                                        <div class=\"price-figure pb-1 mbr-fonts-style\" data-app-selector=\".price-figure\">\n                                            <span mbr-text class=\"price-currency mbr-fonts-style\" mbr-theme-style=\"display-7\">RM</span>\n                                            <span mbr-text class=\"price-value mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-1\">240</span>\n                                            <span mbr-text class=\"price-duration mbr-fonts-style\" mbr-theme-style=\"display-4\">| month</span></div>\n                                    </div>\n\n                                </div>\n                                <div class=\"plan-body\">\n                                    <div class=\"plan-list align-center\">\n                                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn\">\n                                            <li class=\"list-group-item\">2 Years Domain &amp; Share Hosting\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">Include domain name (Domain), server usage and content creation fee! (.com/.com.my/.my)\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">Developed and designed according to your specifications, absolutely original web design\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">Seven(7) pages design\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">All pictures on the web design have copyright certification \n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">Smart Phone Applicable\n</li><li class=\"list-group-item\">(Responsive design)\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">10 SSD Shared Hosting Storage\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">Registration Fee - RM300\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">Yearly Renewal Fee - RM650\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">FREE 1 Year Support Services\n</li><li class=\"list-group-item\">\n</li><li class=\"list-group-item\">FREE Consultant Services</li>\n                                        </ul>\n                                    </div>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"#\" class=\"btn btn-sm btn-black\" data-app-placeholder=\"Type Text\">CHOOSE\n                                            PLAN</a></div>\n                                </div>\n                            </div>\n\n                            <div class=\"plan col-12 my-3 justify-content-center\" mbr-if=\"itemsCount > 2\" mbr-class=\"{\n                            'col-md-4': itemsCount == 3,\n                            'col-md-6': itemsCount == 2}\">\n                                <div class=\"plan-header text-center\">\n                                    <span mbr-icon class=\"mbr-iconfont mbri-devices\"></span>\n                                    <h3 class=\"plan-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan .plan-header .plan-title\">Corporate Plan\n                                    </h3>\n                                    <div class=\"plan-price\">\n                                        <div class=\"price-figure pb-1 mbr-fonts-style\" data-app-selector=\".price-figure\">\n                                            <span mbr-text class=\"price-currency mbr-fonts-style\" mbr-theme-style=\"display-7\">$</span>\n                                            <span mbr-text class=\"price-value mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-1\">51</span>\n                                            <span mbr-text class=\"price-duration mbr-fonts-style\" mbr-theme-style=\"display-4\">/\n                                                month</span></div>\n                                    </div>\n\n                                </div>\n                                <div class=\"plan-body\">\n                                    <div class=\"plan-list align-center\">\n                                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn\">\n                                            <li class=\"list-group-item\"><span>10</span> Project</li>\n                                            <li class=\"list-group-item\"><span>300K</span> API Access</li>\n                                            <li class=\"list-group-item\"><span>100GB</span> Storage</li>\n                                            <li class=\"list-group-item\">Custom <span>Cloud</span> Services</li>\n                                            <li class=\"list-group-item\">Weekly <span>Reports</span></li>\n                                            <li class=\"list-group-item\">24/7<span>Support</span></li>\n                                        </ul>\n                                    </div>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobiri.se\" class=\"btn btn-sm btn-black\" data-app-placeholder=\"Type Text\">CHOOSE\n                                            PLAN</a></div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\">\n                <div class=\"row\">\n                    <div class=\"col-lg-12\">\n                        <div class=\"media-container-row\">\n                            <div class=\"plan col-12 my-3 justify-content-center\" mbr-if=\"itemsCount > 0\" mbr-class=\"{\n                            'col-md-4': itemsCount == 3,\n                            'col-md-6': itemsCount == 2}\">\n                                <div class=\"plan-header text-center\">\n                                    <span mbr-icon class=\"mbr-iconfont icon54-v2-app-window\"></span>\n                                    <h3 class=\"plan-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan .plan-header .plan-title\">One Page Design</h3>\n                                    <div class=\"plan-price\">\n                                        <div class=\"price-figure pb-1 mbr-fonts-style\" data-app-selector=\".plan .plan-header .plan-price .price-figure\">\n                                            <span mbr-text class=\"price-currency mbr-fonts-style\" mbr-theme-style=\"display-7\">RM</span>\n                                            <span mbr-text class=\"price-value mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-1\">1890</span>\n                                            <span mbr-text class=\"price-duration mbr-fonts-style\" mbr-theme-style=\"display-4\">| yearly</span></div>\n                                    </div>\n\n                                </div>\n                                <div class=\"plan-body\">\n                                    <div class=\"plan-list align-center\">\n                                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn\">\n                                            <li class=\"list-group-item\">2 Years Domain &amp; Share Hosting</li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">Include domain name (Domain), server usage and content creation fee! (.com/.com.my/.my)</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">Developed and designed according to your specifications, absolutely original web design</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">One(1) page design</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">&nbsp;All pictures on the web design have copyright certification</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">Smart Phone Applicable&nbsp;<br></span><span style=\"font-size: 1rem; font-weight: 300;\">(Responsive design)</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">10 SSD Shared Hosting Storage</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">Free Registration</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">Yearly Renewal Fee - RM650</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">FREE 1 Year Support Services</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">FREE Consultant Services</span></li>\n                                        </ul>\n                                    </div>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"#\" class=\"btn btn-sm btn-danger\" data-app-placeholder=\"Type Text\">CHOOSE\n                                            PLAN</a></div>\n                                </div>\n                            </div>\n\n                            <div class=\"plan col-12 my-3 justify-content-center\" mbr-if=\"itemsCount > 1\" mbr-class=\"{\n                            'col-md-4': itemsCount == 3,\n                            'col-md-6': itemsCount == 2}\">\n                                <div class=\"plan-header text-center\">\n                                    <span mbr-icon class=\"mbr-iconfont icon54-v2-add-app\"></span>\n                                    <h3 class=\"plan-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan .plan-header .plan-title\">Corporate Website</h3>\n                                    <div class=\"plan-price\">\n                                        <div class=\"price-figure pb-1 mbr-fonts-style\" data-app-selector=\".price-figure\">\n                                            <span mbr-text class=\"price-currency mbr-fonts-style\" mbr-theme-style=\"display-7\">RM</span>\n                                            <span mbr-text class=\"price-value mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-1\">2800</span>\n                                            <span mbr-text class=\"price-duration mbr-fonts-style\" mbr-theme-style=\"display-4\">| yearly</span></div>\n                                    </div>\n\n                                </div>\n                                <div class=\"plan-body\">\n                                    <div class=\"plan-list align-center\">\n                                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn\">\n                                            <li class=\"list-group-item\">2 Years Domain &amp; Share Hosting</li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">Include domain name (Domain), server usage and content creation fee! (.com/.com.my/.my)</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">Developed and designed according to your specifications, absolutely original web design</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">Seven(7) pages design</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">All pictures on the web design have copyright certification</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">Smart Phone Applicable<br></span><span style=\"font-size: 1rem; font-weight: 300;\">(Responsive design)</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">10 SSD Shared Hosting Storage</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">Fee Registration</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">Yearly Renewal Fee - RM650</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">FREE 1 Year Support Services</span></li><br><li class=\"list-group-item\"><span style=\"font-size: 1rem; font-weight: 300;\">FREE Consultant Services</span></li>\n                                        </ul>\n                                    </div>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"#\" class=\"btn btn-sm btn-danger\" data-app-placeholder=\"Type Text\">CHOOSE\n                                            PLAN</a></div>\n                                </div>\n                            </div>\n\n                            <div class=\"plan col-12 my-3 justify-content-center\" mbr-if=\"itemsCount > 2\" mbr-class=\"{\n                            'col-md-4': itemsCount == 3,\n                            'col-md-6': itemsCount == 2}\">\n                                <div class=\"plan-header text-center\">\n                                    <span mbr-icon class=\"mbr-iconfont mbri-devices\"></span>\n                                    <h3 class=\"plan-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan .plan-header .plan-title\">Corporate Plan\n                                    </h3>\n                                    <div class=\"plan-price\">\n                                        <div class=\"price-figure pb-1 mbr-fonts-style\" data-app-selector=\".price-figure\">\n                                            <span mbr-text class=\"price-currency mbr-fonts-style\" mbr-theme-style=\"display-7\">$</span>\n                                            <span mbr-text class=\"price-value mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-1\">550</span>\n                                            <span mbr-text class=\"price-duration mbr-fonts-style\" mbr-theme-style=\"display-4\">/\n                                                month</span></div>\n                                    </div>\n\n                                </div>\n                                <div class=\"plan-body\">\n                                    <div class=\"plan-list align-center\">\n                                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn\">\n                                            <li class=\"list-group-item\"><span>10</span> Project</li>\n                                            <li class=\"list-group-item\"><span>300K</span> API Access</li>\n                                            <li class=\"list-group-item\"><span>100GB</span> Storage</li>\n                                            <li class=\"list-group-item\">Custom <span>Cloud</span> Services</li>\n                                            <li class=\"list-group-item\">Weekly <span>Reports</span></li>\n                                            <li class=\"list-group-item\">24/7<span>Support</span></li>\n                                        </ul>\n                                    </div>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobiri.se\" class=\"btn btn-sm btn-secondary\" data-app-placeholder=\"Type Text\">CHOOSE\n                                            PLAN</a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Tabs\" class=\"tabs tabs2 digitalm4_tabs02\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Badge\" name=\"showBadge\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showMainTitle\" checked>\n        <input type=\"checkbox\" title=\"Main Text\" name=\"showMainText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Half color\" name=\"showHalf\">\n        <select title=\"Items Count\" name=\"itemsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <header>Tabs</header>\n        <input type=\"color\" title=\"Inactive color\" name=\"tabsColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#4f4943\">\n        <input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#0036ff\">\n        <hr>\n        <input type=\"color\" title=\"Badge Bg Color\" name=\"badgeBg\" value=\"#ffffff\" selected condition=\"showBadge\">\n        <input type=\"checkbox\" title=\"Bg Gradient\" name=\"gradientBg\" checked condition=\"showHalf\">\n\n        <input type=\"range\" inline title=\"Half BG Height\" name=\"halfHeight\" min=\"20\" max=\"150\" step=\"5\" value=\"55\" condition=\"showHalf\">\n        <input type=\"color\" title=\"Half BG Color\" name=\"half\" value=\"#cad8f1\" condition=\"showHalf\">\n        <input type=\"color\" title=\"Half BG Color 2\" name=\"half2\" value=\"#2e5bff\" condition=\"showHalf&&gradientBg\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@ADDONS_PATH@/digitalm4/components/_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#4f4943\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"back\" mbr-if=\"showHalf\"></div>\n\n    <div class=\"container\">\n        <div class=\"badge_wrap align-center\">\n            <h5 class=\"badge mbr-regular mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".badge, .badge_wrap\" mbr-if=\"showBadge\">OUR PRICING\n            </h5>\n        </div>\n        <h3 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-light\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><span style=\"font-weight: normal;\">We offer great prices, premium products and </span><br><span style=\"font-weight: normal;\">quality service for your business</span></h3>\n        <h4 class=\"main-title align-center mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".main-title\" mbr-if=\"showMainTitle\">我们为您的企业提供优惠的价格、优质的产品和优质的服务</h4>\n\n        <p class=\"main-text align-center mbr-regular mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".main-text\" mbr-if=\"showMainText\">Semper risus in hendrerit gravida rutrum\n            quisque non tellus. Egestas maecenas pharetra convallis posuere morbi. Consectetur purus ut faucibus\n            pulvinar elementum integer enim. Pellentesque habitant morbi tristique senectus. Montes nascetur\n            ridiculus mus mauris vitae ultricies leo. Vitae justo eget magna fermentum iaculis. Sed risus\n            pretium quam vulputate. Enim lobortis scelerisque fermentum dui. Adipiscing elit duis tristique\n            sollicitudin. Elit sed vulputate mi sit amet. </p>\n        <ul class=\"nav nav-tabs mb-3 d-flex justify-content-center\" role=\"tablist\">\n            <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item first mbr-section-btn\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"mbr-fonts-style btn show btn-sm active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs02-70_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">MONTHLY</a></li>\n            <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item mbr-section-btn\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"mbr-fonts-style btn btn-sm active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs02-70_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">YEARLY</a></li>\n        </ul>\n        <div class=\"tab-content\">\n            <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                <div class=\"row\">\n                    <div class=\"col-lg-12\">\n                        <div class=\"media-container-row\">\n                            <div class=\"plan col-12 my-3 justify-content-center\" mbr-if=\"itemsCount > 0\" mbr-class=\"{\n                            'col-md-4': itemsCount == 3,\n                            'col-md-6': itemsCount == 2}\">\n                                <div class=\"plan-header text-center\">\n                                    <span mbr-icon class=\"mbr-iconfont icon54-v2-app-window\"></span>\n                                    <h3 class=\"plan-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan .plan-header .plan-title\">\n                                        One Page Design</h3>\n                                    <div class=\"plan-price\">\n                                        <div class=\"price-figure pb-1 mbr-fonts-style\" data-app-selector=\".plan .plan-header .plan-price .price-figure\">\n                                            <span mbr-text class=\"price-currency mbr-fonts-style\" mbr-theme-style=\"display-7\">RM</span>\n                                            <span mbr-text class=\"price-value mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-1\">160</span>\n                                            <span mbr-text class=\"price-duration mbr-fonts-style\" mbr-theme-style=\"display-4\">| month</span></div>\n                                    </div>\n\n                                </div>\n                                <div class=\"plan-body\">\n                                    <div class=\"plan-list align-center\">\n                                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn\">\n                                            <li class=\"list-group-item\">FREE 1 Year Support Services\n</li><li class=\"list-group-item\">FREE Settings Google Analytics &amp; FB Pixel \n</li><li class=\"list-group-item\">FREE WhatsApp chat or FB messenger chat\n</li><li class=\"list-group-item\">FREE Consultant Services\n</li><li class=\"list-group-item\">---\n</li><li class=\"list-group-item\">One(1) page design\n</li><li class=\"list-group-item\">Include domain and server usage and content creation fee! (.com/.com.my/.my)\n</li><li class=\"list-group-item\">Developed and designed according to your specifications, absolutely original web design \n</li><li class=\"list-group-item\">All pictures on the web design have copyright certification\n</li><li class=\"list-group-item\">Smart Phone Applicable (Responsive design)\n</li><li class=\"list-group-item\">---\n</li><li class=\"list-group-item\">Timeline 2-3 weeks \n</li><li class=\"list-group-item\">5gb SSD Shared Hosting Storage\n</li><li class=\"list-group-item\">Registration Fee - RM300</li><div><div>\n                                        </div></div></ul>\n                                    </div>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"pricing.html\" class=\"btn btn-sm btn-black\" data-app-placeholder=\"Type Text\">CHOOSE\n                                            PLAN</a></div>\n                                </div>\n                            </div>\n\n                            <div class=\"plan col-12 my-3 justify-content-center\" mbr-if=\"itemsCount > 1\" mbr-class=\"{\n                            'col-md-4': itemsCount == 3,\n                            'col-md-6': itemsCount == 2}\">\n                                <div class=\"plan-header text-center\">\n                                    <span mbr-icon class=\"mbr-iconfont icon54-v2-add-app\"></span>\n                                    <h3 class=\"plan-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan .plan-header .plan-title\">Corporate Website</h3>\n                                    <div class=\"plan-price\">\n                                        <div class=\"price-figure pb-1 mbr-fonts-style\" data-app-selector=\".price-figure\">\n                                            <span mbr-text class=\"price-currency mbr-fonts-style\" mbr-theme-style=\"display-7\">RM</span>\n                                            <span mbr-text class=\"price-value mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-1\">240</span>\n                                            <span mbr-text class=\"price-duration mbr-fonts-style\" mbr-theme-style=\"display-4\">| month</span></div>\n                                    </div>\n\n                                </div>\n                                <div class=\"plan-body\">\n                                    <div class=\"plan-list align-center\">\n                                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn\">\n                                            <li class=\"list-group-item\">FREE 1 Year Support Services\n</li><li class=\"list-group-item\">FREE Settings Google Analytics &amp; FB Pixel \n</li><li class=\"list-group-item\">FREE WhatsApp chat or FB messenger chat\n</li><li class=\"list-group-item\">FREE Consultant Services\n</li><li class=\"list-group-item\">---\n</li><li class=\"list-group-item\">Max seven(7) pages design\n</li><li class=\"list-group-item\">Include domain and server usage and content creation fee! (.com/.com.my/.my)\n</li><li class=\"list-group-item\">Developed and designed according to your specifications, absolutely original web design \n</li><li class=\"list-group-item\">All pictures on the web design have copyright certification\n</li><li class=\"list-group-item\">Smart Phone Applicable (Responsive design)\n</li><li class=\"list-group-item\">---\n</li><li class=\"list-group-item\">Timeline 2-3 weeks \n</li><li class=\"list-group-item\">15gb SSD Shared Hosting Storage\n</li><li class=\"list-group-item\">Registration Fee - RM300</li>\n                                        </ul>\n                                    </div>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"pricing.html\" class=\"btn btn-sm btn-black\" data-app-placeholder=\"Type Text\">CHOOSE\n                                            PLAN</a></div>\n                                </div>\n                            </div>\n\n                            <div class=\"plan col-12 my-3 justify-content-center\" mbr-if=\"itemsCount > 2\" mbr-class=\"{\n                            'col-md-4': itemsCount == 3,\n                            'col-md-6': itemsCount == 2}\">\n                                <div class=\"plan-header text-center\">\n                                    <span mbr-icon class=\"mbr-iconfont mbri-devices\"></span>\n                                    <h3 class=\"plan-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan .plan-header .plan-title\">Corporate Plan\n                                    </h3>\n                                    <div class=\"plan-price\">\n                                        <div class=\"price-figure pb-1 mbr-fonts-style\" data-app-selector=\".price-figure\">\n                                            <span mbr-text class=\"price-currency mbr-fonts-style\" mbr-theme-style=\"display-7\">$</span>\n                                            <span mbr-text class=\"price-value mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-1\">51</span>\n                                            <span mbr-text class=\"price-duration mbr-fonts-style\" mbr-theme-style=\"display-4\">/\n                                                month</span></div>\n                                    </div>\n\n                                </div>\n                                <div class=\"plan-body\">\n                                    <div class=\"plan-list align-center\">\n                                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn\">\n                                            <li class=\"list-group-item\"><span>10</span> Project</li>\n                                            <li class=\"list-group-item\"><span>300K</span> API Access</li>\n                                            <li class=\"list-group-item\"><span>100GB</span> Storage</li>\n                                            <li class=\"list-group-item\">Custom <span>Cloud</span> Services</li>\n                                            <li class=\"list-group-item\">Weekly <span>Reports</span></li>\n                                            <li class=\"list-group-item\">24/7<span>Support</span></li>\n                                        </ul>\n                                    </div>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobiri.se\" class=\"btn btn-sm btn-black\" data-app-placeholder=\"Type Text\">CHOOSE\n                                            PLAN</a></div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\">\n                <div class=\"row\">\n                    <div class=\"col-lg-12\">\n                        <div class=\"media-container-row\">\n                            <div class=\"plan col-12 my-3 justify-content-center\" mbr-if=\"itemsCount > 0\" mbr-class=\"{\n                            'col-md-4': itemsCount == 3,\n                            'col-md-6': itemsCount == 2}\">\n                                <div class=\"plan-header text-center\">\n                                    <span mbr-icon class=\"mbr-iconfont icon54-v2-app-window\"></span>\n                                    <h3 class=\"plan-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan .plan-header .plan-title\">One Page Design</h3>\n                                    <div class=\"plan-price\">\n                                        <div class=\"price-figure pb-1 mbr-fonts-style\" data-app-selector=\".plan .plan-header .plan-price .price-figure\">\n                                            <span mbr-text class=\"price-currency mbr-fonts-style\" mbr-theme-style=\"display-7\">RM</span>\n                                            <span mbr-text class=\"price-value mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-1\">1890</span>\n                                            <span mbr-text class=\"price-duration mbr-fonts-style\" mbr-theme-style=\"display-4\">| yearly</span></div>\n                                    </div>\n\n                                </div>\n                                <div class=\"plan-body\">\n                                    <div class=\"plan-list align-center\">\n                                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn\">\n                                            <li class=\"list-group-item\">Include 2 Years Domain &amp; Share Hosting\n</li><li class=\"list-group-item\">---\n</li><li class=\"list-group-item\">FREE 1 Year Support Services\n</li><li class=\"list-group-item\">FREE Settings Google Analytics &amp; FB Pixel \n</li><li class=\"list-group-item\">FREE WhatsApp chat or FB messenger chat\n</li><li class=\"list-group-item\">FREE Consultant Services\n</li><li class=\"list-group-item\">FREE Registration\n</li><li class=\"list-group-item\">---\n</li><li class=\"list-group-item\">One(1) page design\n</li><li class=\"list-group-item\">Include domain and server usage and content creation fee! (.com/.com.my/.my)\n</li><li class=\"list-group-item\">Developed and designed according to your specifications, absolutely original web design \n</li><li class=\"list-group-item\">All pictures on the web design have copyright certification\n</li><li class=\"list-group-item\">Smart Phone Applicable (Responsive design)\n</li><li class=\"list-group-item\">---\n</li><li class=\"list-group-item\">Timeline 2-3 weeks \n</li><li class=\"list-group-item\">5gb SSD Shared Hosting Storage\n</li><li class=\"list-group-item\">Yearly Renewal Fee - RM650</li>\n                                        </ul>\n                                    </div>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"pricing.html\" class=\"btn btn-sm btn-danger\" data-app-placeholder=\"Type Text\">CHOOSE\n                                            PLAN</a></div>\n                                </div>\n                            </div>\n\n                            <div class=\"plan col-12 my-3 justify-content-center\" mbr-if=\"itemsCount > 1\" mbr-class=\"{\n                            'col-md-4': itemsCount == 3,\n                            'col-md-6': itemsCount == 2}\">\n                                <div class=\"plan-header text-center\">\n                                    <span mbr-icon class=\"mbr-iconfont icon54-v2-add-app\"></span>\n                                    <h3 class=\"plan-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan .plan-header .plan-title\">Corporate Website</h3>\n                                    <div class=\"plan-price\">\n                                        <div class=\"price-figure pb-1 mbr-fonts-style\" data-app-selector=\".price-figure\">\n                                            <span mbr-text class=\"price-currency mbr-fonts-style\" mbr-theme-style=\"display-7\">RM</span>\n                                            <span mbr-text class=\"price-value mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-1\">2800</span>\n                                            <span mbr-text class=\"price-duration mbr-fonts-style\" mbr-theme-style=\"display-4\">| yearly</span></div>\n                                    </div>\n\n                                </div>\n                                <div class=\"plan-body\">\n                                    <div class=\"plan-list align-center\">\n                                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn\">\n                                            <li class=\"list-group-item\">Include 2 Years Domain &amp; Share Hosting\n</li><li class=\"list-group-item\">---\n</li><li class=\"list-group-item\">FREE 1 Year Support Services\n</li><li class=\"list-group-item\">FREE Settings Google Analytics &amp; FB Pixel \n</li><li class=\"list-group-item\">FREE WhatsApp chat or FB messenger chat\n</li><li class=\"list-group-item\">FREE Consultant Services\n</li><li class=\"list-group-item\">FREE Registration\n</li><li class=\"list-group-item\">---\n</li><li class=\"list-group-item\">One(1) page design\n</li><li class=\"list-group-item\">Include domain and server usage and content creation fee! (.com/.com.my/.my)\n</li><li class=\"list-group-item\">Developed and designed according to your specifications, absolutely original web design \n</li><li class=\"list-group-item\">All pictures on the web design have copyright certification\n</li><li class=\"list-group-item\">Smart Phone Applicable (Responsive design)\n</li><li class=\"list-group-item\">---\n</li><li class=\"list-group-item\">Timeline 2-3 weeks \n</li><li class=\"list-group-item\">15gb SSD Shared Hosting Storage\n</li><li class=\"list-group-item\">Yearly Renewal Fee - RM650</li>\n                                        </ul>\n                                    </div>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"pricing.html\" class=\"btn btn-sm btn-danger\" data-app-placeholder=\"Type Text\">CHOOSE\n                                            PLAN</a></div>\n                                </div>\n                            </div>\n\n                            <div class=\"plan col-12 my-3 justify-content-center\" mbr-if=\"itemsCount > 2\" mbr-class=\"{\n                            'col-md-4': itemsCount == 3,\n                            'col-md-6': itemsCount == 2}\">\n                                <div class=\"plan-header text-center\">\n                                    <span mbr-icon class=\"mbr-iconfont mbri-devices\"></span>\n                                    <h3 class=\"plan-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan .plan-header .plan-title\">Corporate Plan\n                                    </h3>\n                                    <div class=\"plan-price\">\n                                        <div class=\"price-figure pb-1 mbr-fonts-style\" data-app-selector=\".price-figure\">\n                                            <span mbr-text class=\"price-currency mbr-fonts-style\" mbr-theme-style=\"display-7\">$</span>\n                                            <span mbr-text class=\"price-value mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-1\">550</span>\n                                            <span mbr-text class=\"price-duration mbr-fonts-style\" mbr-theme-style=\"display-4\">/\n                                                month</span></div>\n                                    </div>\n\n                                </div>\n                                <div class=\"plan-body\">\n                                    <div class=\"plan-list align-center\">\n                                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn\">\n                                            <li class=\"list-group-item\"><span>10</span> Project</li>\n                                            <li class=\"list-group-item\"><span>300K</span> API Access</li>\n                                            <li class=\"list-group-item\"><span>100GB</span> Storage</li>\n                                            <li class=\"list-group-item\">Custom <span>Cloud</span> Services</li>\n                                            <li class=\"list-group-item\">Weekly <span>Reports</span></li>\n                                            <li class=\"list-group-item\">24/7<span>Support</span></li>\n                                        </ul>\n                                    </div>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobiri.se\" class=\"btn btn-sm btn-secondary\" data-app-placeholder=\"Type Text\">CHOOSE\n                                            PLAN</a>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -840,13 +840,13 @@
               "background-color": "@half"
             },
             ".mbr-section-subtitle": {
-              "color": "#232323",
+              "color": "#ffffff",
               "font-weight": "600",
               "margin-bottom": "21px"
             },
             ".main-title": {
               "margin-bottom": "36px",
-              "color": "#767676",
+              "color": "#ffffff",
               "&.display-2": {
                 "line-height": "1.375"
               }
@@ -1071,6 +1071,12 @@
             ".plan .plan-body .plan-list .list-group .list-group-item, .plan .plan-body .mbr-section-btn": {
               "color": "#232323",
               "text-align": "center"
+            },
+            ".plan .plan-header .plan-title": {
+              "color": "#0036ff"
+            },
+            ".badge, .badge_wrap": {
+              "color": "#efefef"
             }
           },
           "_cid": "sJlYS9HDkz",
@@ -1375,7 +1381,572 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ss-ryankey-2.jpg",
-        "order": 8
+        "order": 2
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>Privacy Policy\n :<br></b><span style=\"font-size: 1rem;\">The Privacy Policy will apply when customers use Timriver Creative’s services and products.&nbsp;</span></p><p>\n</p><p><b>Scope of application :<br></b><span style=\"font-size: 1rem;\">Timriver Creative is providing this Privacy Policy provides notice to you of our Privacy Policy and practices about your information is collected online and how that information is used. Please read this Privacy Policy carefully and revisit this page from time to time to review any changes that may have been made. Timriver Creative may amend this Privacy Policy at any time by posting the amended terms on this site. All amended terms automatically take effect on the date set out in the posted Privacy Policy, unless otherwise specified.&nbsp;</span></p><p>\n</p><p><b>Purpose of using personal information \n:<br></b><span style=\"font-size: 1rem;\">Timriver Creative utilizes personal information obtained from customers for the following purposes:&nbsp;</span></p><p>(1) Guidance, provision, and management of services and products offered by Timriver Creative.\n</p><p>(2) Implementation of surveys and questionnaires concerning service and products, etc., offered by Timriver Creative.\n</p><p>(3) Development of new services and products\n</p><p>(4) Guidance, operation, management and information provision for various events and campaigns\n</p><p>(5) Notification of services and products offered by Timriver Creative.\n</p><p>(6) Guidance, operation, management and notification of services, products, events, and campaigns of Timriver Creative and partner companies\n</p><p>(7) Response to inquiries and requests\n</p><p>\n</p><p><b>Acquisition of personal information :</b>&nbsp;:&nbsp;<br><span style=\"font-size: 1rem;\">Timriver Creative will obtain the following personal information by fair and appropriate means for the purpose of achieving the previously mentioned purposes.&nbsp;</span></p><p>Personal information provided to Timriver Creative by the customer to apply for Timriver Creative’s services, etc.\n</p><p>The customer’s name, company name, telephone number, fax number, email address, business contact, mailing address, etc.\n</p><p>\n</p><p><b>Business entrustment\n :</b><br><span style=\"font-size: 1rem;\">In providing products and services to customers, Timriver Creative may entrust a part of its business operations to third parties to which personal information may also be disclosed to the extent required to achieve the purpose of the entrustment. In these cases, Timriver Creative will implement all appropriate measures in managing and supervising such third parties to safeguard the handling of customers’ personal information, including establishing agreements on the handling of such personal information. Transfer to outside of Malaysia Your personal information may be transferred outside of Malaysia for the purposes of data consolidation, storage, simplified customer information management, reporting and other internal uses. If Timriver Creative provides customers’ personal information to third party business operators outside of Malaysia, including business entrusted companies and data sharing partners, Timriver Creative will take necessary and appropriate measures in keeping with laws and regulations. Management of personal information In receiving customers’ personal information, Timriver Creative will manage such information according to the strictest standards and take the utmost care to prevent leaks, loss, or alterations. Timriver Creative ensures that the board members and employees are properly trained regarding appropriate handling to safeguard the security of information identifying individual customers. An appropriate retention period for personal information will be established in accordance with the purpose for which such information is used. After the purpose of the information has been achieved, Timriver Creative will dispose of the information in question by appropriate methods. Disclosure, correction, deletion, addition, discontinuance, and erasure of personal information If Timriver Creative receives a request from a customer, submitted in the manner specified, for the disclosure, correction, deletion, addition, discontinuance, or erasure (hereinafter, “disclosure, etc.”) of the customer’s personal information stored in a database held by Timriver Creative, the request will be handled as follows, within a reasonable timeframe and scope, after confirming that the request was submitted by the customer themselves.&nbsp;</span></p><p>\n</p><p>(1) Request for disclosure\n</p><p>Personal information items will be disclosed in accordance with the customer’s request.\n</p><p>(2) Request for correction, deletion, or addition\n</p><p>Correction, deletion, or addition of personal information will be undertaken wherever possible after due review of the request.\n</p><p>(3) Request for discontinuance or erasure\n</p><p>The use of personal information items designated by the customer will be discontinued, and the relevant information erased if so desired, in accordance with the submitted request. However, please note that such requests may prevent customers from being provided with services that they had utilized, or may impede the provision of services in accordance with their wishes.</p><p><span style=\"font-size: 1rem;\"><br></span></p><p><span style=\"font-size: 1rem;\"><b>Security :&nbsp;</b></span></p><p>The protection of personal information is secured using SSL (Secure Sockets Layer) encryption technology. This means that any information you provided when using this site cannot be accessed by an unauthorized third person. Furthermore, a firewall and anti-virus measures have been installed to prevent disclosure, appropriation, alteration, etc, of personal information.\n</p><p>\n</p><p><b>Modification of the Privacy Policy\n:</b><br><span style=\"font-size: 1rem;\">Timriver Creative may make modifications to this Privacy Policy. If modifications are made, details will be posted on the Timriver Creative website (<a href=\"https://timriver.com\">https://timriver.com</a>), so please be sure to read carefully the contents of any changes that have been made.</span></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rSUG4OhFOx",
+          "_anchor": "content1-6g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".media-container-row": {
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              ".foot-menu": {
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-justify-content": "center",
+                "justify-content": "center",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                }
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.5rem",
+                  "color": "#ffffff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                }
+              },
+              ".row-copirayt": {
+                "word-break": "break-word",
+                "width": "100%",
+                "p": {
+                  "width": "100%"
+                }
+              }
+            }
+          },
+          "_name": "footer7",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section group=\"Footers\" global=\"\" once=\"\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list=\"\" mbr-list-grow=\"menuItems\">\n                    <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">About us</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list=\"\" mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/ryankeydesigns/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.behance.net/ryankey2020\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-behance socicon\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/ryankeydesigns/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://twitter.com/RyanKey52797190\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://www.youtube.com/channel/UC621eKsDOzTxRe23v6VDz3w?view_as=subscriber\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://www.pinterest.com/RyanKeyDesigns/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-pinterest socicon\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">T3-20-05, Tower 3, Pusat Perdagangan Icon City, No. 1B, Jalan SS8/39, 47300 PJ, Selangor, Malaysia.<br>email: <a href=\"mailto:29ryankey@gmail.com\" class=\"text-warning\">29ryankey@gmail.com</a><br>\n<br>Copyright @ 2020 <b>Ryan Key Designs</b>. All right reserved.  </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "footer7-6h",
+          "_isUserblock": true,
+          "_cid": "sIuLiULxVb",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": true,
+          "_params": {}
+        },
+        {
+          "_name": "menu3",
+          "_sourceTheme": "naturalm4",
+          "_customHTML": "<section class=\"menu3 popup-btn-cards\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" global always-top position-absolute once=\"menu\" not-draggable>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\n        <div class=\"mbr-overlay\" mbr-style=\"{'opacity': bgOpacity}\"></div>\n\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">                     \n            <div class=\"left-menu\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'navbar-nav-top-padding': isPublish&&!showBrand&&!showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-white\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">HOME<div class=\"line-animation\"></div></a>\n                    </li>\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link link text-white\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">PAGES<div class=\"line-animation\"></div></a>\n                    </li></ul>\n            </div>\n            <div class=\"brand-container\">\n                <div class=\"navbar-brand\">\n                    <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                        <a href=\"https://mobiri.se\">\n                            <img src=\"@PROJECT_PATH@/assets/images/ryankey-logo-2.jpg\" alt=\"logo_ryankey_designs\" mbr-style=\"{'height': logoSize + 'rem', 'width': auto}\">\n                        </a>\n                    </span>\n                    <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Ryankey Designs</a></span>\n                </div>\n            </div>\n            <div class=\"right-menu\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'navbar-nav-top-padding': isPublish&&!showBrand&&!showLogo}\"><li class=\"nav-item text-primary\">\n                        <a class=\"nav-link link text-white\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">BLOG<div class=\"line-animation\"></div></a>\n                    </li>\n                    <li class=\"nav-item text-primary\">\n                        <a class=\"nav-link link text-white\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">LANDING<div class=\"line-animation\"></div></a>\n                    </li></ul>\n            </div>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n    </nav>\n</section>",
+          "_styles": {
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            "@media (min-width: 992px)": {
+              ".nav-item": {
+                "position": "relative"
+              }
+            },
+            ".navbar": {
+              "min-height": "77px",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "display": "-webkit-flex",
+              "-webkit-align-items": "center",
+              "background": "@menuBgColor",
+              ".mbr-overlay": {
+                "z-index": "-1",
+                "transition": "all .3s",
+                "background": "@menuBgColor"
+              },
+              "&.opened": {
+                ".mbr-overlay": {
+                  "transition": "all .3s",
+                  "background": "@menuBgColor !important"
+                }
+              },
+              ".dropdown-item": {
+                "padding": ".25rem 1.5rem"
+              },
+              ".navbar-collapse": {
+                "width": "100%",
+                "-webkit-flex-basis": "auto",
+                "flex-basis": "auto",
+                "-webkit-justify-content": "space-around",
+                "justify-content": "space-around",
+                "z-index": "1",
+                "padding": ".5rem 0",
+                "@media (max-width: 991px)": {
+                  "-webkit-justify-content": "flex-start",
+                  "justify-content": "flex-start"
+                },
+                "& when not (@showItems)": {
+                  ".nav-item": {
+                    "display": "none !important"
+                  }
+                }
+              },
+              "&.collapsed": {
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  ".navbar-collapse": {
+                    "-webkit-justify-content": "flex-start",
+                    "justify-content": "flex-start"
+                  }
+                },
+                ".navbar-collapse.show,.navbar-collapse.collapsing": {
+                  "transition": "all .3s linear",
+                  "display": "flex",
+                  "-webkit-flex-direction": "column",
+                  "flex-direction": "column",
+                  ".brand-container": {
+                    "-webkit-order": "-1",
+                    "order": "-1"
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin-right": "14px"
+                  }
+                },
+                ".navbar-buttons": {
+                  "margin": "0",
+                  "display": "flex",
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center",
+                  "-webkit-flex-direction": "column",
+                  "flex-direction": "column"
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "text-align": "center"
+                },
+                ".right-menu,.left-menu": {
+                  "-webkit-flex-basis": "auto",
+                  "flex-basis": "auto"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".navbar-collapse.show,.navbar-collapse.collapsing": {
+                  "transition": "all .3s linear",
+                  "display": "flex",
+                  "-webkit-flex-direction": "column",
+                  "flex-direction": "column",
+                  "justify-content": "center",
+                  "align-items": "center",
+                  "overflow-x": "hidden",
+                  ".brand-container": {
+                    "-webkit-order": "-1",
+                    "order": "-1"
+                  }
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3.8rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto !important"
+                  }
+                },
+                ".navbar-buttons": {
+                  "margin": "0",
+                  "display": "flex",
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center",
+                  "-webkit-flex-wrap": "wrap",
+                  "flex-wrap": "wrap",
+                  "-webkit-flex-direction": "column",
+                  "flex-direction": "column"
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".right-menu,.left-menu": {
+                  "-webkit-flex-basis": "auto",
+                  "flex-basis": "auto"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".mbr-overlay": {
+                  "background": "@menuBgColor !important"
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              }
+            },
+            "@media (min-width: 768px)": {
+              ".navbar": {
+                "padding-left": "65px",
+                "padding-right": "65px"
+              }
+            },
+            ".navbar-brand": {
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              "flex-wrap": "wrap",
+              "justify-content": "center",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active,.dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "display": "-webkit-flex",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "@media (max-width: 991px)": {
+                "-webkit-flex-direction": "column",
+                "flex-direction": "column"
+              }
+            },
+            ".navbar-buttons": {
+              "margin-left": "auto"
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "margin": "1rem",
+              "-webkit-align-self": "flex-start",
+              "align-self": "flex-start",
+              "outline": "none",
+              "&:hover": {
+                "outline": "none"
+              },
+              "&:active": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s",
+                "width": "20px",
+                "right": "-2px"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s",
+                "width": "20px",
+                "left": "-2px"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "position": "relative",
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "letter-spacing": "3.41px"
+            },
+            ".mbr-iconfont": {
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".right-menu,.left-menu": {
+              "-webkit-flex-basis": "50%",
+              "flex-basis": "50%"
+            },
+            ".left-menu": {
+              ".navbar-nav": {
+                "-webkit-justify-content": "flex-start",
+                "justify-content": "flex-start",
+                "ul": {
+                  "-webkit-justify-content": "flex-start",
+                  "justify-content": "flex-start"
+                }
+              }
+            },
+            ".right-menu": {
+              ".navbar-nav": {
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                "ul": {
+                  "-webkit-justify-content": "flex-end",
+                  "justify-content": "flex-end"
+                }
+              }
+            },
+            ".brand-container": {
+              "padding": "0 2rem",
+              "-webkit-flex-shrink": "0",
+              "flex-shrink": "0"
+            },
+            ".card-wrapper": {
+              "z-index": "3"
+            },
+            ".popup-btn": {
+              "&.card-wrapper": {
+                "z-index": "1 !important"
+              }
+            },
+            "& when (@collapsed)": {
+              ".navbar-collapse": {
+                "padding-top": "0"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-collapse": {
+                "padding-top": "0"
+              }
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {},
+            ".nav-item:not(:last-child)": {
+              "margin-right": "32px !important"
+            },
+            ".navbar-brand img": {
+              "width": "auto !important",
+              "display": "inline"
+            },
+            ".navbar-dropdown .navbar-brand span": {
+              "vertical-align": "0px",
+              "line-height": "1"
+            },
+            ".nav-link": {
+              "position": "relative",
+              "padding": "0",
+              "display": "inline-block"
+            },
+            ".line-animation": {
+              "opacity": "0",
+              "position": "absolute",
+              "bottom": "-4px",
+              "width": "100%",
+              "height": "2px",
+              "background-color": "currentColor",
+              "transform": "translate3d(0, 0, 0)",
+              "transition": "all 0.2s ease-in-out"
+            },
+            ".nav-link:hover": {
+              ".line-animation": {
+                "opacity": "1",
+                "transform": "translate3d(0, 0, 0)"
+              }
+            },
+            ".link": {
+              "padding": "0",
+              "margin": "0"
+            },
+            ".dropdown-menu": {
+              "margin-top": "0px"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-caption:hover": {
+              "color": "#ffffff"
+            },
+            ".dropdown-item:hover": {
+              "color": "@primaryColor !important"
+            },
+            ".dropdown-toggle:after": {
+              "display": "none"
+            },
+            "a:hover": {
+              ".line-animation": {
+                "opacity": "1"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 !important"
+            },
+            "@media (max-width: 990px)": {
+              ".dropdown-menu": {
+                "margin-top": "0px"
+              },
+              ".nav-dropdown .link": {
+                "padding-top": "15px !important"
+              }
+            }
+          },
+          "_cid": "sJr8wUYOpn",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu3-71"
+        }
+      ]
+    },
+    "pricing.html": {
+      "settings": {
+        "title": "Pricing Package | RyanKey Designs",
+        "meta_descr": "我是Ryan Key, 是Full-Time Freelancer, 主攻网页和手机应用程式(App)设计, 工作经验已经超过20年. My name is Ryan Key and Full-Time Freelancer. I mainly focus on Website and Mobile Application (App) design. I have more than 20 years of work experience. ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/ss-ryankey-2.jpg",
+        "order": 1
       },
       "components": [
         {
@@ -1775,32 +2346,188 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#232323\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <a href=\"index.html#top\"><img src=\"@PROJECT_PATH@/assets/images/ryankey-logo-2.jpg\" alt=\"logo_ryankey\" mbr-style=\"{'height': logoSize + 'rem'}\" title></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">timWeb</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Home</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#tabs02-70\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Parcing</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#header16-6l\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Add-on Features</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#map1-6i\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Contact Us</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-black\" href=\"http://ryankey.com.my/\" data-app-placeholder=\"Type Text\" target=\"_blank\">Ryankey Design</a></div>\n        </div>\n    </nav>\n</section>",
-          "_cid": "rSUF3mdfGe",
-          "_anchor": "menu1-67",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#232323\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <a href=\"index.html#top\"><img src=\"@PROJECT_PATH@/assets/images/ryankey-logo-2.jpg\" alt=\"logo_ryankey\" mbr-style=\"{'height': logoSize + 'rem'}\" title></a>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">timWeb</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Home</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#tabs02-70\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Parcing</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#header16-6l\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Add-on Features</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-black\" href=\"http://ryankey.com.my/\" data-app-placeholder=\"Type Text\" target=\"_blank\">Ryankey Design</a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "sJrdOBSHHa",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {}
+          "_params": {},
+          "_anchor": "menu1-73"
         },
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "P": {
               "color": "#767676"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#767676"
+            },
+            "H1": {
+              "color": "#232323"
             }
           },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>Privacy Policy\n :<br></b><span style=\"font-size: 1rem;\">The Privacy Policy will apply when customers use Timriver Creative’s services and products.&nbsp;</span></p><p>\n</p><p><b>Scope of application :<br></b><span style=\"font-size: 1rem;\">Timriver Creative is providing this Privacy Policy provides notice to you of our Privacy Policy and practices about your information is collected online and how that information is used. Please read this Privacy Policy carefully and revisit this page from time to time to review any changes that may have been made. Timriver Creative may amend this Privacy Policy at any time by posting the amended terms on this site. All amended terms automatically take effect on the date set out in the posted Privacy Policy, unless otherwise specified.&nbsp;</span></p><p>\n</p><p><b>Purpose of using personal information \n:<br></b><span style=\"font-size: 1rem;\">Timriver Creative utilizes personal information obtained from customers for the following purposes:&nbsp;</span></p><p>(1) Guidance, provision, and management of services and products offered by Timriver Creative.\n</p><p>(2) Implementation of surveys and questionnaires concerning service and products, etc., offered by Timriver Creative.\n</p><p>(3) Development of new services and products\n</p><p>(4) Guidance, operation, management and information provision for various events and campaigns\n</p><p>(5) Notification of services and products offered by Timriver Creative.\n</p><p>(6) Guidance, operation, management and notification of services, products, events, and campaigns of Timriver Creative and partner companies\n</p><p>(7) Response to inquiries and requests\n</p><p>\n</p><p><b>Acquisition of personal information :</b>&nbsp;:&nbsp;<br><span style=\"font-size: 1rem;\">Timriver Creative will obtain the following personal information by fair and appropriate means for the purpose of achieving the previously mentioned purposes.&nbsp;</span></p><p>Personal information provided to Timriver Creative by the customer to apply for Timriver Creative’s services, etc.\n</p><p>The customer’s name, company name, telephone number, fax number, email address, business contact, mailing address, etc.\n</p><p>\n</p><p><b>Business entrustment\n :</b><br><span style=\"font-size: 1rem;\">In providing products and services to customers, Timriver Creative may entrust a part of its business operations to third parties to which personal information may also be disclosed to the extent required to achieve the purpose of the entrustment. In these cases, Timriver Creative will implement all appropriate measures in managing and supervising such third parties to safeguard the handling of customers’ personal information, including establishing agreements on the handling of such personal information. Transfer to outside of Malaysia Your personal information may be transferred outside of Malaysia for the purposes of data consolidation, storage, simplified customer information management, reporting and other internal uses. If Timriver Creative provides customers’ personal information to third party business operators outside of Malaysia, including business entrusted companies and data sharing partners, Timriver Creative will take necessary and appropriate measures in keeping with laws and regulations. Management of personal information In receiving customers’ personal information, Timriver Creative will manage such information according to the strictest standards and take the utmost care to prevent leaks, loss, or alterations. Timriver Creative ensures that the board members and employees are properly trained regarding appropriate handling to safeguard the security of information identifying individual customers. An appropriate retention period for personal information will be established in accordance with the purpose for which such information is used. After the purpose of the information has been achieved, Timriver Creative will dispose of the information in question by appropriate methods. Disclosure, correction, deletion, addition, discontinuance, and erasure of personal information If Timriver Creative receives a request from a customer, submitted in the manner specified, for the disclosure, correction, deletion, addition, discontinuance, or erasure (hereinafter, “disclosure, etc.”) of the customer’s personal information stored in a database held by Timriver Creative, the request will be handled as follows, within a reasonable timeframe and scope, after confirming that the request was submitted by the customer themselves.&nbsp;</span></p><p>\n</p><p>(1) Request for disclosure\n</p><p>Personal information items will be disclosed in accordance with the customer’s request.\n</p><p>(2) Request for correction, deletion, or addition\n</p><p>Correction, deletion, or addition of personal information will be undertaken wherever possible after due review of the request.\n</p><p>(3) Request for discontinuance or erasure\n</p><p>The use of personal information items designated by the customer will be discontinued, and the relevant information erased if so desired, in accordance with the submitted request. However, please note that such requests may prevent customers from being provided with services that they had utilized, or may impede the provision of services in accordance with their wishes.</p><p><span style=\"font-size: 1rem;\"><br></span></p><p><span style=\"font-size: 1rem;\"><b>Security :&nbsp;</b></span></p><p>The protection of personal information is secured using SSL (Secure Sockets Layer) encryption technology. This means that any information you provided when using this site cannot be accessed by an unauthorized third person. Furthermore, a firewall and anti-virus measures have been installed to prevent disclosure, appropriation, alteration, etc, of personal information.\n</p><p>\n</p><p><b>Modification of the Privacy Policy\n:</b><br><span style=\"font-size: 1rem;\">Timriver Creative may make modifications to this Privacy Policy. If modifications are made, details will be posted on the Timriver Creative website (<a href=\"https://timriver.com\">https://timriver.com</a>), so please be sure to read carefully the contents of any changes that have been made.</span></p></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rSUG4OhFOx",
-          "_anchor": "content1-6g",
+          "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">create an your site unique website</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    创建您的独特网站\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>RyanKey Designs</b> website includes sliders, galleries with lightbox, articles, counters, countdowns, full-screen intros, images &amp; videos, features, data tables &amp; pricing tables, progress bar &amp; cycles, timelines, tabs &amp; accordions, call-to-action, forms, Google maps, social blocks, testimonials, footers, and more. <b>RyanKey Designs</b> is designed considering the latest web design trends. \n<br>\n<br><b>RyanKey Designs</b> 网站包括滑块、带灯箱的画廊、文章、计数器、倒计时、全屏介绍、图像和视频、功能、数据表和定价表、进度条和周期、时间表、标签和手风琴、号召性用语、表格 、谷歌地图、社交块、推荐信、页脚等。 <b>RyanKey Designs</b> 的设计考虑了最新的网页设计趋势。</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "sJrdOFA2bs",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header16-75"
+        },
+        {
+          "alias": "formbuilder",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            ".mbr-overlay": {
+              "background-color": "@overlayColor",
+              "opacity": "@overlayOpacity"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@customStyle)": {
+              ".form-control, .field-input": {
+                "padding": "0.5rem",
+                "background-color": "@fieldColor",
+                "border-color": "@borderColor",
+                "color": "@formText",
+                "transition": "0.4s",
+                "box-shadow": "none",
+                "outline": "none",
+                "&::-webkit-input-placeholder, &::-webkit-input-placeholder": {
+                  "color": "@formPlaceholder"
+                },
+                "&:-moz-placeholder, &:-moz-placeholder": {
+                  "color": "@formPlaceholder"
+                },
+                "&:hover, &:focus": {
+                  "background-color": "@fieldHover",
+                  "border-color": "@borderHover",
+                  "color": "@formFocusText",
+                  "box-shadow": "none",
+                  "outline": "none",
+                  "&::-webkit-input-placeholder, &::-webkit-input-placeholder": {
+                    "color": "@formFocusPlaceholder"
+                  },
+                  "&:-moz-placeholder, &:-moz-placeholder": {
+                    "color": "@formFocusPlaceholder"
+                  }
+                }
+              },
+              ".jq-number__spin:hover, .jq-number__spin:focus": {
+                "background-color": "@fieldHover",
+                "border-color": "@borderHover",
+                "color": "contrast(@formText, #000000, #ffffff, 30%)",
+                "box-shadow": "none",
+                "outline": "none"
+              },
+              ".jq-number__spin": {
+                "background-color": "@fieldColor",
+                "border-color": "@borderColor",
+                "color": "@formText",
+                "transition": "0.4s",
+                "box-shadow": "none",
+                "outline": "none"
+              },
+              ".jq-selectbox li, .jq-selectbox li": {
+                "background-color": "@fieldColor",
+                "color": "contrast(@fieldColor, #000000, #ffffff, 30%)"
+              },
+              ".jq-selectbox li:hover, .jq-selectbox li.selected": {
+                "background-color": "@fieldHover",
+                "color": "contrast(@fieldHover, #000000, #ffffff, 30%)"
+              },
+              ".jq-selectbox:hover .jq-selectbox__trigger-arrow, .jq-number__spin.minus:hover:after, .jq-number__spin.plus:hover:after": {
+                "border-top-color": "@fieldColor",
+                "border-bottom-color": "@fieldColor"
+              },
+              ".jq-selectbox .jq-selectbox__trigger-arrow, .jq-number__spin.minus:after, .jq-number__spin.plus:after": {
+                "border-top-color": "@fieldHover",
+                "border-bottom-color": "@fieldHover"
+              }
+            },
+            "& when (@customStyle), (@disableElements)": {
+              "input::-webkit-clear-button": {
+                "display": "none"
+              },
+              "input::-webkit-inner-spin-button": {
+                "display": "none"
+              },
+              "input::-webkit-outer-spin-button": {
+                "display": "none"
+              },
+              "input::-webkit-calendar-picker-indicator": {
+                "display": "none"
+              }
+            }
+          },
+          "_name": "formbuilder",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"form\" group=\"Form\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Style</header>\n        <input type=\"checkbox\" name=\"customStyle\" title=\"Custom Style\">\n        <input type=\"checkbox\" name=\"disableElements\" title=\"Disable Control\">\n        <input type=\"color\" name=\"fieldColor\" title=\"Field\" value=\"#ffffff\" condition=\"customStyle\">\n        <input type=\"color\" name=\"fieldHover\" title=\"Field Hover\" value=\"#efefef\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderColor\" title=\"Border\" value=\"#cccccc\" condition=\"customStyle\">\n        <input type=\"color\" name=\"borderHover\" title=\"Border Hover\" value=\"#cccccc\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formText\" title=\"Text\" value=\"#000000\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formFocusText\" title=\"Text Focus\" value=\"#232323\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formPlaceholder\" title=\"Placeholders\" value=\"#c1c1c1\" condition=\"customStyle\">\n        <input type=\"color\" name=\"formFocusPlaceholder\" title=\"Placeholders Focus\" value=\"#c1c1c1\" condition=\"customStyle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div mbr-form class=\"col-lg-8 mx-auto mbr-form\">\n<!--Formbuilder Form-->\n<form action=\"29ryankey@gmail.com\" name=\"Ryankey Designs-Package\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"form-row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">Oops...! some problem!</div>\n</div>\n<div class=\"dragArea form-row\">\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\" data-for=\"package\">\n<div class=\"form-control-label\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"package\" class=\"mbr-fonts-style\">Please select package:</label>\n</div>\n<div class=\"form-check\">\n<input type=\"radio\" name=\"package\" data-form-field=\"package\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"One Page Design | monthly | RM160\" checked>\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">One Page Design | monthly | RM160</label>\n</div>\n<div class=\"form-check\">\n<input type=\"radio\" name=\"package\" data-form-field=\"package\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"Corporate Website | monthly | RM240\">\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">Corporate Website | monthly | RM240</label>\n</div>\n<div class=\"form-check\">\n<input type=\"radio\" name=\"package\" data-form-field=\"package\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"One Page Design | yearly | RM1,890\">\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">One Page Design | yearly | RM1,890</label>\n</div>\n<div class=\"form-check\">\n<input type=\"radio\" name=\"package\" data-form-field=\"package\" mbr-theme-style=\"display-7\" class=\"form-check-input\" value=\"Corporate Website | yearly | RM2,800\">\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-check-label\">Corporate Website | yearly | RM2,800</label>\n</div>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<hr>\n</div>\n<div data-for=\"domain1\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"domain1\" class=\"form-control-label mbr-fonts-style\">Domain Name 1 * (Domain name must be more than 3 characters)</label>\n<input type=\"text\" name=\"domain1\" placeholder=\"e.g. timrive.com /.com.my / .my /.net / .org\" data-form-field=\"domain1\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"domain2\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"domain2\" class=\"form-control-label mbr-fonts-style\">Domain Name 2</label>\n<input type=\"text\" name=\"domain2\" data-form-field=\"domain2\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"domain3\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"domain3\" class=\"form-control-label mbr-fonts-style\">Domain Name 3</label>\n<input type=\"text\" name=\"domain3\" data-form-field=\"domain3\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<hr>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\" data-for=\"company\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"company\" class=\"form-control-label mbr-fonts-style\">Company Name</label>\n<input type=\"text\" name=\"company\" placeholder=\"e.g. RyanKey Designs\" data-form-field=\"name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<label mbr-text mbr-theme-style=\"display-7\" class=\"form-control-label mbr-fonts-style\">Person in Charge</label>\n<div class=\"form-row\">\n<div class=\"col\">\n<input type=\"text\" name=\"NameFirst\" placeholder=\"First Name\" data-form-field=\"NameFirst\" class=\"form-control text-multiple\" value>\n</div>\n<div class=\"col\">\n<input type=\"text\" name=\"NameLast\" placeholder=\"Last Name\" data-form-field=\"NameLast\" class=\"form-control text-multiple\" value>\n</div>\n</div>\n</div>\n<div data-for=\"contact no.\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"contact no.\" class=\"form-control-label mbr-fonts-style\">Contact No.*</label>\n<input type=\"text\" name=\"contact no.\" placeholder=\"e.g. +6012-23569897\" data-form-field=\"contact no.\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n</div>\n<div data-for=\"email\" class=\"col-lg-6 col-md-12 col-sm-12 form-group\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"email\" class=\"form-control-label mbr-fonts-style\">Your mail*</label>\n<input type=\"text\" name=\"email\" placeholder=\"e.g. yourshop@mail.com\" data-form-field=\"email.\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12\">\n<hr>\n</div>\n<div data-for=\"Prom Code\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"Prom Code\" class=\"form-control-label mbr-fonts-style\">Promotional Codes</label>\n<input type=\"text\" name=\"Prom Code\" placeholder=\"Leave it blank if no code is applied\" data-form-field=\"text\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<div class=\"form-control-label\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"I have understood and accepted the Privacy Policy* and Disclaimer Notices and Personal Data Protection Notification*\" class=\"mbr-fonts-style\">Terms &amp; Conditions</label>\n</div>\n<div data-for=\"I agree to receive communications from Timriver Creative\" class=\"form-check\">\n<input type=\"checkbox\" value=\"Yes\" name=\"I agree to receive communications from Timriver Creative\" data-form-field=\"I agree to receive communications from Timriver Creative\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-check-input\">\n<label mbr-text for=\"I agree to receive communications from Timriver Creative\" mbr-theme-style=\"display-7\" class=\"form-check-label\">I agree to receive communications from <a href=\"https://timriver.com/\" class=\"text-primary\" target=\"_blank\">Timriver Creative</a></label>\n</div>\n<div data-for=\"I have understood and accepted the Privacy Policy* and Disclaimer Notices and Personal Data Protection Notification*\" class=\"form-check\">\n<input type=\"checkbox\" value=\"Yes\" name=\"I have understood and accepted the Privacy Policy* and Disclaimer Notices and Personal Data Protection Notification*\" data-form-field=\"I have understood and accepted the Privacy Policy* and Disclaimer Notices and Personal Data Protection Notification*\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-check-input\">\n<label mbr-text for=\"I have understood and accepted the Privacy Policy* and Disclaimer Notices and Personal Data Protection Notification*\" mbr-theme-style=\"display-7\" class=\"form-check-label\">I have understood and accepted the <a href=\"Privacypolicy.html\" class=\"text-primary\" target=\"_blank\">Privacy Policy</a>* and <a href=\"Privacypolicy.html\" class=\"text-primary\">Disclaimer Notices and Personal Data Protection Notification*</a></label>\n</div>\n</div>\n<div mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-lg-12 col-md-12 col-sm-12 \">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-primary\">Submit</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "formbuilder-7h",
+          "_isUserblock": true,
+          "_cid": "sJreItG55C",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "header02",
+          "_sourceTheme": "softwarem4",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/cover-1.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#1b2026\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-lg-6 col-md-6 col-12 align-left\">\n                <h2 class=\"mbr-section-subtitle mbr-white mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubitle\"></h2>\n                <h1 class=\"mbr-section-title mbr-white mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">My clients Website</h1>\n            </div>\n            <div class=\"col-lg-6 col-md-6 col-12 align-right m-auto\">\n\n                <div class=\"button\" mbr-if=\"showText\">\n                    <p class=\"mbr-text mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"http://ryankey.com.my/\" class=\"text-black\" target=\"_blank\">read more</a></p>\n\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#1b2026"
+            },
+            ".button": {
+              "background": "white",
+              "border-radius": "10px",
+              "display": "inline-block",
+              "width": "fit-content",
+              "padding": "1rem 2rem",
+              "p": {
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            ".mbr-section-subtitle": {
+              "color": "#bbbbbb"
+            }
+          },
+          "_cid": "sJrdOGJLSo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header02-76"
         },
         {
           "_styles": {
@@ -1887,13 +2614,13 @@
           "_name": "footer7",
           "_sourceTheme": "mobirise4",
           "_customHTML": "<section group=\"Footers\" global=\"\" once=\"\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list=\"\" mbr-list-grow=\"menuItems\">\n                    <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">About us</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list=\"\" mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/ryankeydesigns/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.behance.net/ryankey2020\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-behance socicon\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/ryankeydesigns/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://twitter.com/RyanKey52797190\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://www.youtube.com/channel/UC621eKsDOzTxRe23v6VDz3w?view_as=subscriber\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://www.pinterest.com/RyanKeyDesigns/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-pinterest socicon\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">T3-20-05, Tower 3, Pusat Perdagangan Icon City, No. 1B, Jalan SS8/39, 47300 PJ, Selangor, Malaysia.<br>email: <a href=\"mailto:29ryankey@gmail.com\" class=\"text-warning\">29ryankey@gmail.com</a><br>\n<br>Copyright @ 2020 <b>Ryan Key Designs</b>. All right reserved.  </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "footer7-6h",
           "_isUserblock": true,
-          "_cid": "sIuLiULxVb",
+          "_cid": "sJrdOWtxcO",
           "_protectedParams": [],
           "_global": true,
           "_once": true,
-          "_params": {}
+          "_params": {},
+          "_anchor": "footer7-7g"
         }
       ]
     }
