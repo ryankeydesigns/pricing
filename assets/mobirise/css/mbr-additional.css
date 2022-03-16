@@ -2478,8 +2478,31 @@ section.lazy-placeholder:after {
 .cid-sJrdOWtxcO .media-container-row .row-copirayt p {
   width: 100%;
 }
+.cid-t0cKjj9stp {
+  background: #ffffff;
+}
+.cid-t0cKjj9stp .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-t0cKjj9stp .mbr-figure {
+  margin: 0 auto;
+}
+.cid-t0cKjj9stp figcaption {
+  position: relative;
+}
+.cid-t0cKjj9stp figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-t0cKjj9stp .image-block {
+    width: 100% !important;
+  }
+}
 .cid-t02izUyiG1 {
-  padding-top: 10rem;
+  padding-top: 3rem;
   padding-bottom: 6rem;
   background-color: #232323;
 }
@@ -2958,156 +2981,27 @@ section.lazy-placeholder:after {
 .cid-t02izLJCTy .dropdown-item:hover {
   color: #232323 !important;
 }
-.cid-t02izP3H70 {
+.cid-t0cKBV6ZPF {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background-color: #ffffff;
 }
-.cid-t02izP3H70 P {
-  color: #767676;
+.cid-t0cKBV6ZPF .fb-page,
+.cid-t0cKBV6ZPF span,
+.cid-t0cKBV6ZPF iframe {
+  width: 500px;
+  height: 720px;
 }
-.cid-t02izP3H70 .mbr-text,
-.cid-t02izP3H70 .mbr-section-btn {
-  color: #767676;
+.cid-t0cKBV6ZPF blockquote {
+  display: none;
 }
-.cid-t02izP3H70 H1 {
-  color: #232323;
-}
-.cid-t02izQWBH4 {
-  padding-top: 90px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.cid-t02izQWBH4 h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-.cid-t02izQWBH4 p {
-  color: #767676;
-  text-align: left;
-}
-.cid-t02izQWBH4 .card-box {
-  padding-top: 2rem;
-}
-.cid-t02izQWBH4 .card-wrapper {
-  height: 100%;
-}
-.cid-t02izQWBH4 P {
-  color: #767676;
-}
-.cid-t02izSDx2l {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.cid-t02izSDx2l h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-.cid-t02izSDx2l p {
-  color: #767676;
-  text-align: left;
-}
-.cid-t02izSDx2l .card-box {
-  padding-top: 2rem;
-}
-.cid-t02izSDx2l .card-wrapper {
-  height: 100%;
-}
-.cid-t02izTyW7q {
-  padding-top: 30px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-t02izTyW7q h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-.cid-t02izTyW7q p {
-  color: #767676;
-  text-align: left;
-}
-.cid-t02izTyW7q .card-box {
-  padding-top: 2rem;
-}
-.cid-t02izTyW7q .card-wrapper {
-  height: 100%;
-}
-.cid-t02izVE48O {
-  padding-top: 105px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-t02izVE48O P {
-  color: #767676;
-}
-.cid-t02izVE48O .mbr-text,
-.cid-t02izVE48O .mbr-section-btn {
-  color: #232323;
-}
-.cid-t02izVE48O H1 {
-  color: #465052;
-}
-.cid-t02izWntTB {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.cid-t02izWntTB h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-.cid-t02izWntTB p {
-  color: #767676;
-  text-align: left;
-}
-.cid-t02izWntTB .card-box {
-  padding-top: 2rem;
-}
-.cid-t02izWntTB .card-wrapper {
-  height: 100%;
-}
-.cid-t02izXo4iu {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.cid-t02izXo4iu h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-.cid-t02izXo4iu p {
-  color: #767676;
-  text-align: left;
-}
-.cid-t02izXo4iu .card-box {
-  padding-top: 2rem;
-}
-.cid-t02izXo4iu .card-wrapper {
-  height: 100%;
-}
-.cid-t02izYfrTQ {
-  padding-top: 30px;
-  padding-bottom: 105px;
-  background-color: #ffffff;
-}
-.cid-t02izYfrTQ h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-.cid-t02izYfrTQ p {
-  color: #767676;
-  text-align: left;
-}
-.cid-t02izYfrTQ .card-box {
-  padding-top: 2rem;
-}
-.cid-t02izYfrTQ .card-wrapper {
-  height: 100%;
+.cid-t0cKBV6ZPF .fb-page {
+  background-color: #1877f2;
+  border-radius: 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='xMinYMin meet' viewBox='0 0 262 266.895'><path id='path3087' fill='%23fff' d='M182.409,262.307v-99.803h33.499l5.016-38.895h-38.515V98.777c0-11.261,3.127-18.935,19.275-18.935 l20.596-0.009V45.045c-3.562-0.474-15.788-1.533-30.012-1.533c-29.695,0-50.025,18.126-50.025,51.413v28.684h-33.585v38.895h33.585 v99.803H182.409z'></path></svg>");
 }
 .cid-t02izZ1uZN .google-map {
   height: 25rem;
